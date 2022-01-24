@@ -48,4 +48,28 @@ const b = [1, true, "hola",["a","b","c"]]
 console.log(a);
 console.log(b);
 console.log(b.length);//te devuelve el numero de elementos en el array
-console.log(b[2])
+console.log(b[2]);
+console.log(b[3][2]);
+
+const c = Array.of("x","y","z",9,8,7);
+
+console.log(c);
+
+const d = Array(100).fill(false)
+console.log(d)
+
+//metodos array
+
+const colores = ["rojo","verde","azul"]
+console.log(colores);
+
+colores.push("negro")// push agrega un array
+console.log(colores);
+
+colores.pop();// pop quita el ultimo elemento 
+console.log(colores);
+
+colores.forEach(function(el, index){
+    console.log(`<li id="${index}">${el}</li>`)
+});
+
