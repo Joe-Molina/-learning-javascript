@@ -111,7 +111,51 @@ console.log(joe.contacto)
 console.log(joe.contacto.instragram)
 joe.saludar();
 joe.decirMiNombre();
+
+
+/* operadores */ 
+// aritemeticos //
+
+let aa = 5 + 5 - 10 * 3 ;
+let modulo = 5%2;
+console.log(aa);
+console.log(modulo);
+
+
+console.log(8<=9)
  
+/*
+ = asignacion d variable 
+== 2 iguales es comparacion de valores
+=== con 3 iguales comparacion de tipo de dato y de valor
+
+*/
+
+console.log(7 === 7);
+console.log("7"=== 7);
+console.log(0 === false);
 
 
+// incremento y decremento 
 
+let i = 2;
+/*
+i = i + 2;
+i *= 3;
+*/
+console.log(i++);
+console.log(++i)
+// operador unario 
+
+i ++;
+i --;
+
+--i;
+
+
+console.log(i)
+
+/*logicos
+not ! , es decir lo que es verdadero lo vuelve falso 
+or || cuando tengo 2 o mas condiciones con que una se cumpla el or validara.
+and && */
