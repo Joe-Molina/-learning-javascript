@@ -43,6 +43,7 @@ funcionExpresada()
 
 //ARRAYS
 
+/*
 const a = [];
 const b = [1, true, "hola",["a","b","c"]]
 console.log(a);
@@ -71,5 +72,46 @@ console.log(colores);
 
 colores.forEach(function(el, index){
     console.log(`<li id="${index}">${el}</li>`)
-});
+}); 
+*/
+
+
+
+const bb = {}
+console.log(bb);
+
+const joe = {
+    nombre: "joe",
+    apellido: "Molina",
+    edad: 20,
+    pasatiempo: ["perder el tiempo","ver partidas de lol","estudiar"],
+    casado: false,
+    contacto: {
+        email: "joedodaniljr123@gmail.com",
+        instragram: "joe.molina01",
+        movil: "04243308433",
+    },
+    saludar:function(){
+    console.log("hola :)")
+    },
+
+    decirMiNombre: function(){
+        console.log(`hola soy ${this.nombre} y mi apellido es ${this .apellido}`)
+    }
+};
+// dentro de un objeto a las variables se le llaman atributo o propiedades
+// y las funciones metodos
+console.log(joe);
+console.log(joe["nombre"]);
+console.log(joe["edad"]);
+console.log(joe.nombre);
+console.log(joe.casado)
+console.log(joe.pasatiempo[0])
+console.log(joe.contacto)
+console.log(joe.contacto.instragram)
+joe.saludar();
+joe.decirMiNombre();
+ 
+
+
 
