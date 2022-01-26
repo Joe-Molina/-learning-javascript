@@ -159,3 +159,75 @@ console.log(i)
 not ! , es decir lo que es verdadero lo vuelve falso 
 or || cuando tengo 2 o mas condiciones con que una se cumpla el or validara.
 and && */
+
+
+// condicinonales if - else
+
+let edad = 17;
+
+if(edad >17) {
+    console.log("eres mayor de edad")
+} else {
+    console.log("eres menor de edad")
+};
+
+if(edad>=18) {
+    console.log("eres mayor de edad")
+} else {
+    console.log("eres menor de edad")
+};
+
+if(edad<=17) {
+    console.log("eres menor de edad")
+} else {
+    console.log("eres mayor de edad")
+};
+
+let hora  = 11;
+
+if(hora >=0 && hora <=5){
+console.log("dejame dormir ")
+}else if(hora >=6 && hora <=11){
+   console.log("buenos dias")
+} else if(hora >=12 && hora <=18){
+    console.log("buenos dias")
+} else{
+    console.log("buenas noches")
+};
+
+//operador ternario (condicion)? verdadero : falsa
+
+console.log("operador ternario");
+let eresMAyor = (edad >=18)?"eres mayor de edad" : "eres menor de edad";
+console.log(eresMAyor)
+
+//switch - case
+
+let dia = 4 
+
+switch (dia) {
+    case 0:
+        console.log("domingo")
+        break;
+    case 1: 
+    console.log("lunes")
+        break;
+    case 2: 
+    console.log("martes")
+        break;
+    case 3: 
+    console.log("miercoles")
+        break;
+    case 4: 
+    console.log("jueves")
+        break;
+    case 5: 
+    console.log("viernes")
+        break;
+    case 6: 
+    console.log("sabado")
+        break;
+    default:
+        console.log("el dia no existe")
+        break;
+}
