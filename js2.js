@@ -1,5 +1,5 @@
 //manejo de errores
-try {
+/*try {
     console.log("en el try se agrega el codigo a evaluar")
     noesxiste;
     console.log("segundo mensaje en el try")
@@ -19,4 +19,24 @@ try {
     console.log(numero * numero);
 } catch(error) {
     console.log(`se produjo el siguiente error: ${error}`);
+}*/
+
+
+/*const numeros = [1,2,3,4,5,6,7,8,9,0]
+
+for(let i = 0; i < numeros.length; i++){
+    if(i === 5){
+        break;//sale de la estructura en la qu esta 
+    }
+    console.log(numeros[i])
 }
+
+for(let i = 0; i < numeros.length; i++){
+    if(i === 5){
+        continue;//se va a saltar la iteracion que gustes y seguira con la ejecucion normal
+    }
+    console.log(numeros[i])
+}
+*/
+
+
