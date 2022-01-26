@@ -97,7 +97,7 @@ console.log(dog)
  
 //PArAMETROS REST y OPERADOR SPREAD
 //agregar parametros infinitos a una funcion o algo asi xd
-
+/*
 //paprametros rest
 function sumar(a,b, ...c){
     let resultado = a+b;
@@ -120,3 +120,53 @@ const arr1 = [1,2,3,4,5],
 
     const arr3 = [...arr1, ...arr2];
     console.log(arr3);
+    */
+
+
+//ARROW FUNCTIONS
+
+const saludar = ()=> {
+    console.log("HOLA")
+}
+
+const saludar2 = nombre => console.log(`hola ${nombre}`)
+saludar();
+saludar2("irma");
+
+const sumar = function(a,b){
+    return a + b;
+
+};
+
+console.log(sumar(3,5))
+
+const sumar2 = (a,b)=> a+b;
+
+console.log(sumar2(2,6))
+
+const funcionDeVariasLineas = ()=> {
+    console.log("uno");
+    console.log("dos");
+    console.log("tres");
+};
+
+funcionDeVariasLineas();
+
+const numeross = [1,2,3,4,5]
+
+numeross.forEach((el,index)=>
+    console.log(` ${el} esta en la posicion ${index}`));
+/*
+function perro (){
+    console.log(this);
+}
+
+perro()
+*/
+
+const perro = {
+    nombre: "kitty",
+    ladrar(){console.log(this)
+}}
+
+perro.ladrar()
