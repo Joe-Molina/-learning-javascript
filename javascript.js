@@ -80,7 +80,7 @@ colores.forEach(function(el, index){
 const bb = {}
 console.log(bb);
 
-const joe = {
+/*const joe = {
     nombre: "joe",
     apellido: "Molina",
     edad: 20,
@@ -99,9 +99,10 @@ const joe = {
         console.log(`hola soy ${this.nombre} y mi apellido es ${this .apellido}`)
     }
 };
+*/
 // dentro de un objeto a las variables se le llaman atributo o propiedades
 // y las funciones metodos
-console.log(joe);
+/*console.log(joe);
 console.log(joe["nombre"]);
 console.log(joe["edad"]);
 console.log(joe.nombre);
@@ -230,4 +231,51 @@ switch (dia) {
     default:
         console.log("el dia no existe")
         break;
+}
+
+//ciclos repetitivos
+
+let contador = 0;
+
+while (contador < 10) {
+    console.log(contador);
+    contador++;
+};
+
+do {
+console.log("while "+contador)
+contador++;
+}while(contador < 10);
+
+/*for(inicializacion de variable; condicion; decremento o incremento){
+
+}*/
+
+for (let i = 0; i < 10; i++) {
+    console.log("for " +i);
+    
+}
+
+let numeros = [10,20,30,40,50,60,70,80,90];
+
+for(let i = 0; i < numeros.length;i++){
+console.log(numeros[i])//imprime la posicion i
+}
+const joe = {
+    nombre: "joe",
+    apellido: "molina",
+    edad: 35
+};
+//for in objetos
+for (const propiedad in joe) {
+    console.log(`Key: ${propiedad}, value: ${joe[propiedad]}`);
+}
+//for of arrays
+for (const elemento of numeros) {
+    console.log(elemento);
+}
+
+let cadena = "hola mundo";
+for (const caracter of cadena) {
+    console.log(caracter)
 }
