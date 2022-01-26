@@ -39,4 +39,28 @@ for(let i = 0; i < numeros.length; i++){
 }
 */
 
+// destructuracion
 
+//forma de asiganar valores a objetos o arrays
+
+// sin destructuracion
+/*
+let numeros = [1,2,3];
+
+let uno  = numeros[0],
+    dos = numeros[1],
+    tres = numeros[2];
+
+//con destructuracion
+const[one,two,three] = numeros;
+console.log(one, two, three)
+
+const persona = {
+    nombre: "joe",
+    apellido: "molina",
+    edad: 35
+};
+
+let {nombre,apellido,edad} = persona;
+console.log(nombre,apellido,edad);
+*/
