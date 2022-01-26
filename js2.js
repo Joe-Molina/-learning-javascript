@@ -64,3 +64,31 @@ const persona = {
 let {nombre,apellido,edad} = persona;
 console.log(nombre,apellido,edad);
 */
+
+//OBEJTOS LITERALES
+
+let nombre = "kenai",
+edad = 7;
+
+const perro = {
+    nombre: nombre,
+    edad: edad,
+    ladrar: function(){
+        console.log("guau guau")
+    }
+
+}
+
+console.log(perro);
+perro.ladrar();
+
+const dog = {
+    nombre,
+    edad,
+    raza: "callejero",
+    ladrar(){
+        console.log("guau guau guau")
+    }
+};
+
+console.log(dog)
