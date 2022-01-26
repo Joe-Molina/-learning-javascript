@@ -279,3 +279,5 @@ let cadena = "hola mundo";
 for (const caracter of cadena) {
     console.log(caracter)
 }
+
+
