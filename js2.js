@@ -67,6 +67,7 @@ console.log(nombre,apellido,edad);
 
 //OBEJTOS LITERALES
 
+/*
 let nombre = "kenai",
 edad = 7;
 
@@ -92,3 +93,30 @@ const dog = {
 };
 
 console.log(dog)
+*/
+ 
+//PArAMETROS REST y OPERADOR SPREAD
+//agregar parametros infinitos a una funcion o algo asi xd
+
+//paprametros rest
+function sumar(a,b, ...c){
+    let resultado = a+b;
+
+    c.forEach(function(n){
+        resultado += n
+    })
+
+    return resultado;
+};
+
+console.log(sumar(1,2));
+console.log(sumar(1,2,3));
+console.log(sumar(1,2,3,4));
+
+//operador spread
+const arr1 = [1,2,3,4,5],
+    arr2 = [6,7,8,9,0];
+    console.log(arr1, arr2,)
+
+    const arr3 = [...arr1, ...arr2];
+    console.log(arr3);
