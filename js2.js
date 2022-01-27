@@ -244,5 +244,73 @@ saludar(){
     */
 
 
+//OBJETO CONSOLE
+/*
+console.log(console);
+console.error("this is an error");
+console.warn("esto es un aviso");
+console.info("esto es un emnsaje informativo");
+console.log("un registro de lo qu ha pasado en nuestra aplicacion");
+
+let nombre = "joe,"
+    apellido = "molina",
+    edad = 20;
+
+console.log(nombre);
+console.log(apellido);
+console.log(edad);
+console.log(nombre, apellido, edad)
+console.log(`hola mi nombre es ${nombre} y mi apellido es ${apellido} tengo ${edad} años.`)
+console.log(`hola mi nombre es %s y mi apellido es %s tengo %d años.`,nombre, apellido, edad);
+console.clear();
+
+console.log(window);
+console.log(document);
+console.dir(window);
+console.dir(document);
+
+console.clear();
 
 
+console.group(" cursos de jon chidos");
+console.log("js");
+console.log("node");
+console.log("php");
+console.log("next.js");
+console.groupEnd();
+console.log("tengo hambre");
+
+console.clear();
+
+console.log(console);
+console.table(Object.entries(console).sort());
+
+console.clear();
+
+console.time("cuanto tiempo tarda mi codigo ")
+
+const arreglo = Array(1000000);
+
+for(let i = 0; i < arreglo.length ; i++){
+    arreglo[i] = i;
+}
+
+console.timeEnd("cuanto tiempo tarda mi codigo ")
+
+//console.log(arreglo)
+
+console.clear();
+
+
+for(let i = 0; i <= 100 ; i++){
+    console.count("codigo for")
+    console.log(i);
+}
+
+console.clear();
+let x = 3,
+    y = 2,
+    pruebaXY = "se espera que X siempre sea menor que Y";
+
+console.assert(x<y,(x,y,pruebaXY))
+*/
