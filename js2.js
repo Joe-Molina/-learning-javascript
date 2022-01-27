@@ -171,7 +171,7 @@ const perro = {
 
 perro.ladrar()
 */
-
+/*
 //Clases y herencias
 
  class Animal{
@@ -196,6 +196,7 @@ saludar(){
         //es un metodod que manda a llamar el constructor de la clase padre
         super(nombre,genero);
         this.tamanio = tamanio;
+        this.raza = null;
     }
 
     sonar(){
@@ -205,7 +206,29 @@ saludar(){
     ladrar(){
         console.log("guau guau")
     }
+
+    //metodos estaticos
+
+    static queEres(){
+        console.log("un perro pe");
+    }
+
+    //los setters y getters son metodos especiales 
+    //que nos permiten establecer y obtener los
+    //valores de atributos de nuestra clase
+
+    get getRaza(){
+        return this.raza;
+    }
+
+    set setRaza(raza){
+        this.raza = raza;
+    }
+
  }
+
+ Perro.queEres();
+ 
 
  const mimi = new Animal("mimi","hembra"),
     scooby = new Perro("scooby","macho","gigante");
@@ -215,3 +238,11 @@ saludar(){
     console.log(scooby);
     scooby.sonar();
     scooby.ladrar();
+    console.log(scooby.getRaza);
+    scooby.setRaza = "gran danes";
+    console.log(scooby.getRaza)
+    */
+
+
+
+
