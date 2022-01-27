@@ -124,7 +124,7 @@ const arr1 = [1,2,3,4,5],
 
 
 //ARROW FUNCTIONS
-
+/*
 const saludar = ()=> {
     console.log("HOLA")
 }
@@ -156,17 +156,62 @@ const numeross = [1,2,3,4,5]
 
 numeross.forEach((el,index)=>
     console.log(` ${el} esta en la posicion ${index}`));
-/*
+*//*
 function perro (){
     console.log(this);
 }
 
 perro()
 */
-
+/*
 const perro = {
     nombre: "kitty",
     ladrar(){console.log(this)
 }}
 
 perro.ladrar()
+*/
+
+//Clases y herencias
+
+ class Animal{
+constructor(nombre,genero){
+    this.nombre = nombre;
+    this.genero = genero;
+}
+
+// metodos
+sonar(){
+    console.log("hago sonidos por que estoy vivo");
+
+}
+
+saludar(){
+    console.log(`hola me llamo ${this.nombre}`);
+}
+ }
+
+ class Perro extends Animal{
+    constructor(nombre,genero,tamanio){
+        //es un metodod que manda a llamar el constructor de la clase padre
+        super(nombre,genero);
+        this.tamanio = tamanio;
+    }
+
+    sonar(){
+        console.log("soy un perro y mi sonido es un ladrido")
+    }
+
+    ladrar(){
+        console.log("guau guau")
+    }
+ }
+
+ const mimi = new Animal("mimi","hembra"),
+    scooby = new Perro("scooby","macho","gigante");
+
+    console.log(mimi);
+    mimi.saludar();
+    console.log(scooby);
+    scooby.sonar();
+    scooby.ladrar();
