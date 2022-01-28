@@ -395,3 +395,24 @@ let expReg2 = /lorem/ig;
 console.log(expReg2.test(cadena));
 console.log(expReg2.exec(cadena));
 */
+
+//Funciones anonimas autoejecutables
+/*
+(function(){
+   console.log("mi primer IIFE"); 
+
+})();
+
+(function(d,w,c){
+    console.log("mi segunda IIFE"); 
+    console.log(d);
+    console.log(w);
+    console.log(c);
+    c.log("hola")
+})(document,window,console);
+
+
+(function(){
+
+})()
+*/
