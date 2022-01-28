@@ -373,7 +373,7 @@ console.log(false||"valor de la derecha")
 
 console.log(false&&"valor de la derecha")
 */
-
+/*
 let alerta = console.log(window);
 let confirmacion = window.confirm("esto es una confirmacion");
 let promtt = prompt("hola esto es un promt y le permite al usuario ingresar un valor");
@@ -381,4 +381,17 @@ let promtt = prompt("hola esto es un promt y le permite al usuario ingresar un v
 console.log(alerta);
 console.log(confirmacion);
 console.log(promtt);
+*/
+/*
+//EXPRESIONES REGULARES
+let cadena = "sdfsdf Loremadasdasdas adasd loremads asd"; 
+//let expReg = new RegExp("lorem","i")
+let expReg2 = /lorem/ig;
 
+//console.log(expReg.test(cadena));
+//console.log(expReg.exec(cadena));
+
+
+console.log(expReg2.test(cadena));
+console.log(expReg2.exec(cadena));
+*/
