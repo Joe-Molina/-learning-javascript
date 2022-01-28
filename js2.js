@@ -357,7 +357,9 @@ console.log(Math.random()*1000);
 console.log(Math.round(Math.random()*100));
 */
 
+
 //OPERADOR DE CORTOCIRCUITO
+/*
 function saludar(nombre){
     nombre = nombre || "desconocido"
     console.log(`hola ${nombre}`);
@@ -370,3 +372,13 @@ console.log("cadena"||"valor de la derecha")
 console.log(false||"valor de la derecha")
 
 console.log(false&&"valor de la derecha")
+*/
+
+let alerta = console.log(window);
+let confirmacion = window.confirm("esto es una confirmacion");
+let promtt = prompt("hola esto es un promt y le permite al usuario ingresar un valor");
+
+console.log(alerta);
+console.log(confirmacion);
+console.log(promtt);
+
