@@ -314,3 +314,44 @@ let x = 3,
 
 console.assert(x<y,(x,y,pruebaXY))
 */
+
+//OBJETO DATE
+/*
+console.log(Date());
+
+let fecha = new Date();
+console.log(fecha);
+//fecha del mes
+console.log(fecha.getDate());
+console.log(fecha.getDay());
+console.log(fecha.getMonth());
+console.log(fecha.getFullYear());
+console.log(fecha.getHours());
+console.log(fecha.getMinutes());
+console.log(fecha.toString());
+console.log(fecha.toDateString());
+console.log(fecha.toLocaleString());
+console.log(fecha.toLocaleDateString());
+console.log(fecha.toLocaleTimeString());
+console.log(fecha.getTimezoneOffset());
+console.log(fecha.getUTCDate());
+console.log(Date.now());
+let cumplejoe = new Date(2001,4,1);
+console.log(cumplejoe)
+*/
+
+//Objeto Math
+//es un objeto estatico
+
+console.log(Math);
+console.log(Math.PI);
+console.log(Math.abs(-7.8));
+console.log(Math.ceil(7.8));
+console.log(Math.floor(7.8));
+console.log(Math.round(7.8));
+console.log(Math.sqrt(81));
+console.log(Math.pow(2,5));
+console.log(Math.sign(-7.8));//-1 0 1
+console.log(Math.random());
+console.log(Math.random()*1000);
+console.log(Math.round(Math.random()*100));
