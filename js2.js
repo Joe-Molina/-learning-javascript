@@ -342,7 +342,7 @@ console.log(cumplejoe)
 
 //Objeto Math
 //es un objeto estatico
-
+/*
 console.log(Math);
 console.log(Math.PI);
 console.log(Math.abs(-7.8));
@@ -355,3 +355,18 @@ console.log(Math.sign(-7.8));//-1 0 1
 console.log(Math.random());
 console.log(Math.random()*1000);
 console.log(Math.round(Math.random()*100));
+*/
+
+//OPERADOR DE CORTOCIRCUITO
+function saludar(nombre){
+    nombre = nombre || "desconocido"
+    console.log(`hola ${nombre}`);
+}
+
+saludar("joe")
+saludar();
+
+console.log("cadena"||"valor de la derecha")
+console.log(false||"valor de la derecha")
+
+console.log(false&&"valor de la derecha")
